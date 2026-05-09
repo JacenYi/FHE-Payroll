@@ -1,6 +1,8 @@
 # FHE 薪资系统
 
-基于 Zama fhEVM 的同态加密薪资系统合约。
+Confidential Payroll Infrastructure 是一个面向 Web3 组织的隐私薪资与金融身份系统，基于 Zama 的 Fully Homomorphic Encryption（FHE，全同态加密）构建。
+该系统允许企业在链上完成薪资发放，同时默认保护薪资数据隐私。工资金额、企业薪资结构以及员工收入等敏感信息将以加密形式存储，只有获得授权的用户才能进行解密查看。
+我们的目标，是构建链上经济中的隐私雇佣与金融身份基础设施。
 
 ## 📁 项目结构
 
