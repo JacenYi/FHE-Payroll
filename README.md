@@ -1,6 +1,8 @@
-# FHE Salary System
+# FHE Payroll System
 
-A homomorphic encryption salary system contract based on Zama fhEVM.
+Confidential Payroll Infrastructure is a privacy based payroll and financial identity system for Web3 organizations, built on Zama's Fully Homomorphic Encryption (FHE).
+This system allows enterprises to complete salary payments on the chain while default protecting salary data privacy. Sensitive information such as salary amount, company salary structure, and employee income will be stored in encrypted form, and only authorized users can decrypt and view it.
+Our goal is to build a privacy employment and financial identity infrastructure in the on chain economy.
 
 ## 📁 Project Structure
 
