@@ -307,4 +307,4 @@ WalletProvider (钱包状态)
 
 **文档版本**: v1.0  
 **生成日期**: 2026-05-09  
-**项目名称**: FHE Payroll Demo
+**项目名称**: FHE Payroll Dapp
