@@ -1,19 +1,4 @@
-# FHE Payroll Demo
-
-A blockchain payroll system demo application based on **Fully Homomorphic Encryption (FHE)**.
-
-## 📋 Project Overview
-
-This project demonstrates how to build a decentralized payroll management system using fully homomorphic encryption technology. By combining FHE encryption and blockchain technology, it achieves privacy protection and trusted distribution of payroll data.
-
-### Core Values
-
-| Feature | Description |
-|---------|-------------|
-| **Privacy Protection** | Payroll data is encrypted using FHE, only accessible to the employee themselves |
-| **Blockchain Trust** | Payroll distribution records are stored on-chain, immutable |
-| **Decentralized** | No need to trust third-party institutions, smart contracts execute automatically |
-| **Multi-role Support** | Supports both administrator and employee roles |
+# FHE Payroll Dapp
 
 ---
 
@@ -99,13 +84,12 @@ Copy and configure the `.env` file:
 # Contract Configuration
 VITE_CONTRACT_ADDRESS=0xe7*************************0512
 VITE_SALARY_TOKEN_ADDRESS=0x5F***************************80aa3
-VITE_CONTRACT_OWNER_ADDRESS=0xf3*************************2266
 
 # Zama Relayer API Key (Optional)
 VITE_ZAMA_RELAYER_API_KEY=your_api_key_here
 
 # Testnet Configuration (Optional, use defaults if not set)
-VITE_SEPOLIA_RPC_URL=https://rpc.sepolia.org
+VITE_SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_KEY
 VITE_HOLESKY_RPC_URL=https://ethereum-holesky.publicnode.com
 ```
 
@@ -264,7 +248,7 @@ Select Employee → Enter Salary → FHE Encrypt → Send to Chain → Record Pa
 
 | Network Name | Chain ID | RPC URL | Relayer URL |
 |--------------|----------|---------|-------------|
-| Sepolia | 11155111 | https://rpc.sepolia.org | https://relayer.sepolia.zama.ai |
+| Sepolia | 11155111 |https://sepolia.infura.io/v3/YOUR_INFURA_KEY | https://relayer.sepolia.zama.ai |
 
 > **Note**: MetaMask newer versions require RPC URLs to use HTTPS protocol. We recommend using testnets for local development.
 
@@ -320,28 +304,10 @@ Main Methods:
 2. **Network Selection**: Recommend using Sepolia or Holesky testnets, local network requires HTTPS configuration
 3. **Test Tokens**: Testnet operations require test tokens, available from faucets
 4. **FHE Initialization**: First-time use requires key pair generation, may take some time
-5. **Role Detection**: Current version defaults to administrator role, actual deployment requires role detection from contract
 
 ---
 
-## 📊 Project Status
-
-- ✅ Wallet connection functionality
-- ✅ Employee management functionality
-- ✅ FHE encrypted payroll distribution
-- ✅ Payroll record viewing
-- ✅ Multi-language support
-- ⚠️ Role detection needs improvement (currently default admin)
-- ⚠️ NFT-related features pending implementation
-
----
-
-## 📄 License
-
-This project is for demonstration and learning purposes only.
-
----
 
 **Documentation Version**: v1.0  
 **Generated Date**: 2026-05-09  
-**Project Name**: FHE Payroll Demo
+**Project Name**: FHE Payroll Dapp
