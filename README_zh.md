@@ -83,7 +83,7 @@ module.exports = {
 
 ```javascript
 zamaSepolia: {
-  url: "https://sepolia.infura.io/v3/你的Infura_KEY",
+  url: "https://sepolia.infura.io/v3/YOUR_INFURA_KEY",
   accounts: [process.env.PRIVATE_KEY],
   chainId: 11155111,
 }
