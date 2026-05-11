@@ -83,7 +83,6 @@ npm install
 # 合约配置
 VITE_CONTRACT_ADDRESS=0xe7*************************0512
 VITE_SALARY_TOKEN_ADDRESS=0x5F***************************80aa3
-VITE_CONTRACT_OWNER_ADDRESS=0xf3*************************2266
 
 # Zama Relayer API Key（可选）
 VITE_ZAMA_RELAYER_API_KEY=your_api_key_here
