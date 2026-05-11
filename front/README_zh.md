@@ -1,20 +1,4 @@
-# FHE Payroll Demo
-
-基于**全同态加密（Fully Homomorphic Encryption）**的区块链工资单系统演示应用。
-
-## 📋 项目概述
-
-本项目是一个演示如何使用全同态加密技术构建的去中心化工资管理系统。通过结合 FHE 加密和区块链技术，实现了工资数据的隐私保护和可信发放。
-
-### 核心价值
-
-| 特性 | 描述 |
-|------|------|
-| **隐私保护** | 工资数据使用 FHE 加密存储，只有员工本人可解密查看 |
-| **区块链可信** | 工资发放记录存储在链上，不可篡改 |
-| **去中心化** | 无需信任第三方机构，智能合约自动执行 |
-| **多角色支持** | 支持管理员和员工两种角色 |
-
+# FHE Payroll Dapp
 ---
 
 ## 🛠️ 技术栈
@@ -105,7 +89,7 @@ VITE_CONTRACT_OWNER_ADDRESS=0xf3*************************2266
 VITE_ZAMA_RELAYER_API_KEY=your_api_key_here
 
 # 测试网配置（可选，使用默认值即可）
-VITE_SEPOLIA_RPC_URL=https://rpc.sepolia.org
+VITE_SEPOLIA_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_KEY
 VITE_HOLESKY_RPC_URL=https://ethereum-holesky.publicnode.com
 ```
 
@@ -261,7 +245,7 @@ npm run preview
 
 | 网络名称 | 链ID | RPC URL | Relayer URL |
 |---------|------|---------|-------------|
-| Sepolia | 11155111 | https://rpc.sepolia.org | https://relayer.sepolia.zama.ai |
+| Sepolia | 11155111 | https://sepolia.infura.io/v3/YOUR_INFURA_KEY| https://relayer.sepolia.zama.ai |
 
 > **注意**：MetaMask新版本要求RPC URL必须使用HTTPS协议，本地开发时建议使用测试网。
 
@@ -314,28 +298,11 @@ WalletProvider (钱包状态)
 ## ⚠️ 注意事项
 
 1. **MetaMask安装**：使用前需安装MetaMask浏览器插件
-2. **网络选择**：建议使用Sepolia或Holesky测试网，本地网络需配置HTTPS
+2. **网络选择**：建议使用Sepolia测试网，本地网络需配置HTTPS
 3. **测试代币**：测试网操作需要测试代币，可从水龙头获取
 4. **FHE初始化**：首次使用需要生成密钥对，可能需要一些时间
-5. **角色判断**：当前版本默认用户为管理员角色，实际部署需要从合约获取角色
 
 ---
-
-## 📊 项目状态
-
-- ✅ 钱包连接功能
-- ✅ 员工管理功能
-- ✅ FHE加密工资发放
-- ✅ 工资记录查看
-- ✅ 多语言支持
-- ⚠️ 角色判断功能待完善（当前默认管理员）
-- ⚠️ NFT相关功能待实现
-
----
-
-## 📄 许可证
-
-本项目仅供演示和学习使用。
 
 ---
 
