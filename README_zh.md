@@ -103,10 +103,9 @@ SalaryToken: 0x...
 FheSalarySystem: 0x...
 ```
 ### 5. sepolia测试合约地址
-FheSalarySystem: 0xc019cEB21628EFaa14A20a50D5EE2cE727F52d88
+FheSalarySystem: 0xc019cEB21628EFaa14A20a50D5EE2cE727F52d88 
 SalaryToken:0x17B865ef552d869BF802c333F75a987d8c2bD332
-保存好这两个合约地址，后续使用需要。
-
+```
 ## 📝 合约功能
 
 ### 1. 员工管理
