@@ -102,9 +102,10 @@ Deploying with: 0x123456...
 SalaryToken: 0x...
 FheSalarySystem: 0x...
 ```
-
-Save both contract addresses, you will need them later.
-
+### 5. sepolia test address
+FheSalarySystem: 0xc019cEB21628EFaa14A20a50D5EE2cE727F52d88
+SalaryToken:0x17B865ef552d869BF802c333F75a987d8c2bD332
+```
 ## 📝 Contract Features
 
 ### 1. Employee Management
