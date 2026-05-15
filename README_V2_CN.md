@@ -60,12 +60,9 @@
 │   ├── SalaryToken.sol            # ERC7984 机密薪资代币（CUSDO）
 │   ├── SalaryERC20.sol            # 普通 ERC20 代币（USDO），用于兑换输出
 │   ├── SwapERC7984ToERC20.sol     # 机密代币到明文代币的兑换桥接合约
-│   └── DeploymentExample.sol      # 部署流程文档
 ├── scripts/
-│   ├── deployComplete.js          # 完整系统部署脚本
-│   ├── deployMain.js              # 单合约部署脚本
-│   ├── deploy.js                  # 基础部署脚本
-│   └── deploy all.js              # 批量部署脚本
+│   ├── deployV2.js                # V2部署脚本
+│   ├── deploy.js                  # V1基础部署脚本
 ├── test/
 │   ├── CompleteSystem.test.js     # 完整系统集成测试
 │   └── FheSalarySystem.test.js    # 薪资系统单元测试
