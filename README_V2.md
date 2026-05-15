@@ -63,7 +63,7 @@ A fully homomorphic encryption (FHE) salary management system built on Zama's fh
 │   ├── SwapERC7984ToERC20.sol     # Confidential-to-plain token swap bridge
 ├── scripts/
 │   ├── deployV2.js                # ContractsV2 deployment
-│   ├── deploy.js                  # Basic deployment
+│   ├── deploy.js                  # Contracts deployment
 ├── test/
 │   ├── CompleteSystem.test.js     # Full system integration tests
 │   └── FheSalarySystem.test.js    # Salary system unit tests
