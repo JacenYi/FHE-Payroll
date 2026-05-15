@@ -24,6 +24,11 @@ Confidential Payroll Infrastructure 是一个面向 Web3 组织的隐私薪资�
 ├── contracts/
 │   ├── FheSalarySystem.sol       # FHE 薪资系统主合约
 │   └── SalaryToken.sol           # ERC20 薪资代币
+├── contractsv2/
+│   ├── FheSalarySystem.sol        # Core salary management contract (FHE)
+│   ├── SalaryToken.sol            # ERC7984 confidential salary token (CUSDO)
+│   ├── SalaryERC20.sol            # Plain ERC20 token (USDO) for swap output
+│   ├── SwapERC7984ToERC20.sol     # Confidential-to-plain token swap bridge
 ├── scripts/
 │   └── deploy.js                # 部署脚本
 ├── front/                       # 前端Dapp
