@@ -4,6 +4,18 @@ Confidential Payroll Infrastructure is a privacy based payroll and financial ide
 This system allows enterprises to complete salary payments on the chain while default protecting salary data privacy. Sensitive information such as salary amount, company salary structure, and employee income will be stored in encrypted form, and only authorized users can decrypt and view it.
 Our goal is to build a privacy employment and financial identity infrastructure in the on chain economy.
 
+## What's New in V2
+
+```
+| Feature        | V1                                             | V2                                                |
+| -------------- | ---------------------------------------------- | ------------------------------------------------- |
+| Salary Token   | Plain ERC20                                    | ERC7984 Confidential Token                        |
+| Salary Data    | Stored in plaintext (Simple) / encrypted (FHE) | Fully encrypted on-chain via fhEVM                |
+| Withdrawal     | Direct ERC20 transfer                          | Confidential → ERC20 swap with decryption proof   |
+| Token Swap     | Not supported                                  | SwapERC7984ToERC20 bridge contract                |
+| FHE Compliance | Partial                                        | Full fhEVM compliance with proper access controls |
+```
+
 ## 📁 Project Structure
 
 ```
