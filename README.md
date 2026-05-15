@@ -23,6 +23,11 @@ For details, see README_V2.md
 ├── contracts/
 │   ├── FheSalarySystem.sol       # FHE Salary System Main Contract
 │   └── SalaryToken.sol           # ERC20 Salary Token
+├── contractsv2/                  # FHE Salary System Main Contract V2
+│   ├── FheSalarySystem.sol       # Core salary management contract (FHE)
+│   ├── SalaryToken.sol           # ERC7984 confidential salary token (CUSDO)
+│   ├── SalaryERC20.sol           # Plain ERC20 token (USDO) for swap output
+│   ├── SwapERC7984ToERC20.sol    # Confidential-to-plain token swap bridge
 ├── scripts/
 │   └── deploy.js                # Deployment Script
 ├── front/                       # Frontend (not in scope)
