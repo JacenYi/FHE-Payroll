@@ -30,6 +30,7 @@ For details, see README_V2.md
 │   ├── SwapERC7984ToERC20.sol    # Confidential-to-plain token swap bridge
 ├── scripts/
 │   └── deploy.js                # Deployment Script
+│   └── deployV2.js              # V2 Deployment Script
 ├── front/                       # Frontend (not in scope)
 ├── hardhat.config.js            # Hardhat Configuration
 ├── .env                         # Environment Variables
