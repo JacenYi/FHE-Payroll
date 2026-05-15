@@ -6,6 +6,7 @@ Our goal is to build a privacy employment and financial identity infrastructure 
 
 ## What's New in V2
 
+For details, see README_V2.md
 ```
 | Feature        | V1                                             | V2                                                |
 | -------------- | ---------------------------------------------- | ------------------------------------------------- |
