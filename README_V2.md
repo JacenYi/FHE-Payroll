@@ -61,12 +61,9 @@ A fully homomorphic encryption (FHE) salary management system built on Zama's fh
 │   ├── SalaryToken.sol            # ERC7984 confidential salary token (CUSDO)
 │   ├── SalaryERC20.sol            # Plain ERC20 token (USDO) for swap output
 │   ├── SwapERC7984ToERC20.sol     # Confidential-to-plain token swap bridge
-│   └── DeploymentExample.sol      # Deployment workflow documentation
 ├── scripts/
-│   ├── deployComplete.js          # Full system deployment script
-│   ├── deployMain.js              # Single contract deployment
+│   ├── deployV2.js                # ContractsV2 deployment
 │   ├── deploy.js                  # Basic deployment
-│   └── deploy all.js              # Batch deployment
 ├── test/
 │   ├── CompleteSystem.test.js     # Full system integration tests
 │   └── FheSalarySystem.test.js    # Salary system unit tests
