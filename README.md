@@ -7,7 +7,7 @@ Our goal is to build a privacy employment and financial identity infrastructure 
 ## What's New in V2
 
 For details, see README_V2.md
-```
+
 | Feature        | V1                                             | V2                                                |
 | -------------- | ---------------------------------------------- | ------------------------------------------------- |
 | Salary Token   | Plain ERC20                                    | ERC7984 Confidential Token                        |
@@ -15,7 +15,7 @@ For details, see README_V2.md
 | Withdrawal     | Direct ERC20 transfer                          | Confidential → ERC20 swap with decryption proof   |
 | Token Swap     | Not supported                                  | SwapERC7984ToERC20 bridge contract                |
 | FHE Compliance | Partial                                        | Full fhEVM compliance with proper access controls |
-```
+
 
 ## 📁 Project Structure
 
