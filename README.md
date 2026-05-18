@@ -31,7 +31,8 @@ For details, see README_V2.md
 ├── scripts/
 │   └── deploy.js                # Deployment Script
 │   └── deployV2.js              # V2 Deployment Script
-├── front/                       # Frontend (not in scope)
+├── front/                       # DappV1 Code (Please refer to the internal readme for details)
+├── frontV2/                     # DappV2 Code (Please refer to the internal readme for details)
 ├── hardhat.config.js            # Hardhat Configuration
 ├── .env                         # Environment Variables
 ├── package.json                 # Project Dependencies
