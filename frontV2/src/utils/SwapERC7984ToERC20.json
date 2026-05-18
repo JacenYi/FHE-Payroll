@@ -1,0 +1,128 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        { "internalType": "contract SalaryToken", "name": "erc7984Token_", "type": "address" },
+        { "internalType": "contract IERC20", "name": "erc20Token_", "type": "address" }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "SwapERC7984ToERC20NoPendingSwap",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "amount", "type": "uint256" }
+      ],
+      "name": "depositERC20",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "erc20Token",
+      "outputs": [{ "internalType": "contract IERC20", "name": "", "type": "address" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "erc7984Token",
+      "outputs": [{ "internalType": "contract SalaryToken", "name": "", "type": "address" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "bytes32", "name": "swapId", "type": "bytes32" },
+        { "internalType": "uint64", "name": "clearAmount", "type": "uint64" },
+        { "internalType": "bytes", "name": "decryptionProof", "type": "bytes" }
+      ],
+      "name": "finalizeSwap",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "bytes32", "name": "swapId", "type": "bytes32" }
+      ],
+      "name": "getPendingSwap",
+      "outputs": [
+        { "internalType": "address", "name": "receiver", "type": "address" },
+        { "internalType": "uint256", "name": "timestamp", "type": "uint256" },
+        { "internalType": "bool", "name": "isActive", "type": "bool" }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "externalEuint64", "name": "encryptedInput", "type": "bytes32" },
+        { "internalType": "bytes", "name": "inputProof", "type": "bytes" }
+      ],
+      "name": "swapConfidentialToERC20",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "address", "name": "newOwner", "type": "address" }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "user", "type": "address" },
+        { "indexed": true, "internalType": "bytes32", "name": "swapId", "type": "bytes32" },
+        { "indexed": false, "internalType": "bytes32", "name": "amountHandle", "type": "bytes32" },
+        { "indexed": false, "internalType": "uint256", "name": "timestamp", "type": "uint256" }
+      ],
+      "name": "SwapRequested",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "user", "type": "address" },
+        { "indexed": true, "internalType": "bytes32", "name": "swapId", "type": "bytes32" },
+        { "indexed": false, "internalType": "uint64", "name": "cleartextAmount", "type": "uint64" },
+        { "indexed": false, "internalType": "uint256", "name": "timestamp", "type": "uint256" }
+      ],
+      "name": "SwapFinalized",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "previousOwner", "type": "address" },
+        { "indexed": true, "internalType": "address", "name": "newOwner", "type": "address" }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    }
+  ]
+}
