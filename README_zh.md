@@ -32,7 +32,8 @@ Confidential Payroll Infrastructure 是一个面向 Web3 组织的隐私薪资�
 ├── scripts/
 │   └── deploy.js                # V1 部署脚本
 │   └── deployV2.js              # V2 部署脚本
-├── front/                       # 前端Dapp
+├── front/                       # 前端Dapp   (详情见内部 README)
+├── frontV2/                     # 前端DappV2 (详情见内部 README)
 ├── hardhat.config.js            # Hardhat 配置
 ├── .env                         # 环境变量
 ├── package.json                 # 项目依赖
